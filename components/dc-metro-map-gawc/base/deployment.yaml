@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-gawc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-depl-clnr-tenant/appstudio/dc-metro-map-gawc@sha256:9c4a12cce5067c0a72f9e3d111c9b5e57739b536aac1f2dc80cee1f037ec8361
         name: my-nodejs
         ports:
         - containerPort: 3001
